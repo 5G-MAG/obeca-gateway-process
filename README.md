@@ -1,25 +1,26 @@
-# 5G-MAG Reference Tools: MBMS Middleware
-
-This repository holds the MBMS Middleware implementation for the 5G-MAG Reference Tools.
+<h1 align="center">MBMS Middleware</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Under_Development-yellow" alt="Under Development">
+  <img src="https://img.shields.io/github/v/tag/5G-MAG/rt-mbms-mw?label=version" alt="Version">
+  <img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="License">
+</p>
 
 ## Introduction
 
 The MBMS Middleware implementation provides the best available content to the (internal or external) application at any time. If available, it combines content from (mobile) broadband, WiFi with the 5G BC content from the MBMS Modem using an advanced decision logic. The content is presented to the applications in form of an intelligent edge cache ready for pick up via http(s).
 
-![Architecture](https://github.com/5G-MAG/Documentation-and-Architecture/blob/main/media/architecture/5G-MAG%20RT%20Architecture%20Current%20Architecture%205G%20Media%20Client%20v8.drawio.png)
+![Architecture](https://github.com/5G-MAG/Getting-Started/blob/main/media/architecture/5G-MAG%20RT%20Architecture%20Current%20Architecture%205G%20Media%20Client%20v8.drawio.png)
 
 > **Status**: The specific parts of the *MBMS Middleware*, especially outer interfaces and the surrounding environment is currently subject of investigation of the project team.  The project team targets to use as much as possible from existing specifications and concepts (3GPP, DVB,...) for the *MBMS Middleware*.
 
-### How it works
+Additional information can be found at: https://5g-mag.github.io/Getting-Started/pages/lte-based-5g-broadcast/
+
+## About the implementation
 * In the current release 0.9.x the *MBMS Middleware* uses the UDP multicast IP packets from the *MBMS Modem*.
 * If the payload contains FLUTE decoded content (files, i.e. Service Announcement, DASH, HLS) the *MBMS Middleware* decodes the packets with its FLUTE/ALC decoder into files.
 * The *MBMS Middleware* includes a web-cache server and each service is available like an CDN publishing point including manifest and segment files.
 * Information how to access the endpoints (e.g. URL to manifest.m3u8 or manifest.mpd) can be found on the corresponding Middleware tab in the *GUI* or *Webinterface*.
 > **Note:** The FLUTE/ALC decoder is available as an independent repository (library) [here](https://github.com/5G-MAG/libflute) and includes encoding/decoding functionalities.
-
-## Specifications
-
-A list of specification related to this repository is available [here](https://github.com/5G-MAG/Standards/blob/main/Specifications_MBMS.md).
 
 ## Install dependencies
 
