@@ -1,0 +1,14 @@
+<map id="src/HlsPrimaryPlaylist.h" name="src/HlsPrimaryPlaylist.h">
+<area shape="rect" id="node1" title=" " alt="" coords="255,5,415,32"/>
+<area shape="rect" id="node2" href="$ContentStream_8cpp.html" title=" " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node3" href="$HlsPrimaryPlaylist_8cpp.html" title=" " alt="" coords="185,80,359,107"/>
+<area shape="rect" id="node4" href="$Service_8cpp.html" title=" " alt="" coords="339,155,451,181"/>
+<area shape="rect" id="node5" href="$Service_8h.html" title=" " alt="" coords="504,80,603,107"/>
+<area shape="rect" id="node6" href="$Middleware_8h.html" title=" " alt="" coords="568,304,688,331"/>
+<area shape="rect" id="node9" href="$RestHandler_8h.html" title=" " alt="" coords="437,229,563,256"/>
+<area shape="rect" id="node11" href="$ServiceAnnouncement_8cpp.html" title=" " alt="" coords="643,229,842,256"/>
+<area shape="rect" id="node12" href="$ServiceAnnouncement_8h.html" title=" " alt="" coords="526,155,711,181"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="Contains the program entry point, command line parameter handling, and the main runloop for data proc..." alt="" coords="509,379,605,405"/>
+<area shape="rect" id="node8" href="$Middleware_8cpp.html" title=" " alt="" coords="630,379,765,405"/>
+<area shape="rect" id="node10" href="$RestHandler_8cpp.html" title=" " alt="" coords="403,304,543,331"/>
+</map>
